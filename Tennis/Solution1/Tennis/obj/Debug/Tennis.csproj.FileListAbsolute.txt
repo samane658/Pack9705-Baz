@@ -1,0 +1,7 @@
+c:\Users\user\source\repos\Solution1\Tennis\bin\Debug\Tennis.exe.config
+c:\Users\user\source\repos\Solution1\Tennis\bin\Debug\Tennis.exe
+c:\Users\user\source\repos\Solution1\Tennis\bin\Debug\Tennis.pdb
+c:\Users\user\source\repos\Solution1\Tennis\obj\Debug\Tennis.csprojAssemblyReference.cache
+c:\Users\user\source\repos\Solution1\Tennis\obj\Debug\Tennis.csproj.CoreCompileInputs.cache
+c:\Users\user\source\repos\Solution1\Tennis\obj\Debug\Tennis.exe
+c:\Users\user\source\repos\Solution1\Tennis\obj\Debug\Tennis.pdb
