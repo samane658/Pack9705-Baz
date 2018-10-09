@@ -1,0 +1,7 @@
+C:\Users\user\source\repos\RandomExamQuestion\RandomExamQuestion\bin\Debug\RandomExamQuestion.exe.config
+C:\Users\user\source\repos\RandomExamQuestion\RandomExamQuestion\bin\Debug\RandomExamQuestion.exe
+C:\Users\user\source\repos\RandomExamQuestion\RandomExamQuestion\bin\Debug\RandomExamQuestion.pdb
+C:\Users\user\source\repos\RandomExamQuestion\RandomExamQuestion\obj\Debug\RandomExamQuestion.csprojAssemblyReference.cache
+C:\Users\user\source\repos\RandomExamQuestion\RandomExamQuestion\obj\Debug\RandomExamQuestion.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\RandomExamQuestion\RandomExamQuestion\obj\Debug\RandomExamQuestion.exe
+C:\Users\user\source\repos\RandomExamQuestion\RandomExamQuestion\obj\Debug\RandomExamQuestion.pdb
