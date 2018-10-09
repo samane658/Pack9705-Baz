@@ -1,0 +1,7 @@
+C:\Users\user\source\repos\ComparableStudent\ComparableStudent\obj\Debug\ComparableStudent.csprojAssemblyReference.cache
+C:\Users\user\source\repos\ComparableStudent\ComparableStudent\obj\Debug\ComparableStudent.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\ComparableStudent\ComparableStudent\bin\Debug\ComparableStudent.exe.config
+C:\Users\user\source\repos\ComparableStudent\ComparableStudent\bin\Debug\ComparableStudent.exe
+C:\Users\user\source\repos\ComparableStudent\ComparableStudent\bin\Debug\ComparableStudent.pdb
+C:\Users\user\source\repos\ComparableStudent\ComparableStudent\obj\Debug\ComparableStudent.exe
+C:\Users\user\source\repos\ComparableStudent\ComparableStudent\obj\Debug\ComparableStudent.pdb
