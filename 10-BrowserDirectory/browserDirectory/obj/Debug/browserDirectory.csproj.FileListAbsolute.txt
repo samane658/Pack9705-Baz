@@ -1,0 +1,7 @@
+C:\Users\user\source\repos\BrowserDirectory\browserDirectory\bin\Debug\browserDirectory.exe.config
+C:\Users\user\source\repos\BrowserDirectory\browserDirectory\bin\Debug\browserDirectory.exe
+C:\Users\user\source\repos\BrowserDirectory\browserDirectory\bin\Debug\browserDirectory.pdb
+C:\Users\user\source\repos\BrowserDirectory\browserDirectory\obj\Debug\browserDirectory.csprojAssemblyReference.cache
+C:\Users\user\source\repos\BrowserDirectory\browserDirectory\obj\Debug\browserDirectory.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\BrowserDirectory\browserDirectory\obj\Debug\browserDirectory.exe
+C:\Users\user\source\repos\BrowserDirectory\browserDirectory\obj\Debug\browserDirectory.pdb
