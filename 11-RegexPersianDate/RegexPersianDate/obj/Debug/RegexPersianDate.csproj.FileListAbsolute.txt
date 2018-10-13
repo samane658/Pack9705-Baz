@@ -1,0 +1,7 @@
+C:\Users\user\source\repos\RegexPersianDate\RegexPersianDate\bin\Debug\RegexPersianDate.exe.config
+C:\Users\user\source\repos\RegexPersianDate\RegexPersianDate\bin\Debug\RegexPersianDate.exe
+C:\Users\user\source\repos\RegexPersianDate\RegexPersianDate\bin\Debug\RegexPersianDate.pdb
+C:\Users\user\source\repos\RegexPersianDate\RegexPersianDate\obj\Debug\RegexPersianDate.csprojAssemblyReference.cache
+C:\Users\user\source\repos\RegexPersianDate\RegexPersianDate\obj\Debug\RegexPersianDate.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\RegexPersianDate\RegexPersianDate\obj\Debug\RegexPersianDate.exe
+C:\Users\user\source\repos\RegexPersianDate\RegexPersianDate\obj\Debug\RegexPersianDate.pdb
