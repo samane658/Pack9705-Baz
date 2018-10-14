@@ -1,0 +1,7 @@
+C:\Users\user\source\repos\Tic Tac Toe\bin\Debug\BoxDemo.exe.config
+C:\Users\user\source\repos\Tic Tac Toe\bin\Debug\BoxDemo.exe
+C:\Users\user\source\repos\Tic Tac Toe\bin\Debug\BoxDemo.pdb
+C:\Users\user\source\repos\Tic Tac Toe\obj\Debug\XO.csprojAssemblyReference.cache
+C:\Users\user\source\repos\Tic Tac Toe\obj\Debug\XO.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Tic Tac Toe\obj\Debug\BoxDemo.exe
+C:\Users\user\source\repos\Tic Tac Toe\obj\Debug\BoxDemo.pdb
