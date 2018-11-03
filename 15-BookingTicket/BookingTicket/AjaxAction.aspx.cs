@@ -23,7 +23,7 @@ namespace WebAppDemo
 
 
 
-            using (StreamWriter sw = new StreamWriter(Server.MapPath("~S/Reserve/Users.txt"), true))
+            using (StreamWriter sw = new StreamWriter(Server.MapPath("~/Reserve/Users.txt"), true))
             {
                 sw.WriteLine($"{name},{family},{saloon},{seat}");
             }

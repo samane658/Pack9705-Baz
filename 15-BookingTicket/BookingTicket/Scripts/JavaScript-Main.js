@@ -27,18 +27,27 @@ $(function () {
 
 
         let $saloon = $('#location').val();
-        let seat = selectedSeats[0];
+        var $seat = selected_seats[0];
+        alert(seat);
+        var seatstring ;
+        for (var i = 0; i < selected_seats.length; i++) {
+            var x = selected_seats[i];
+            seatstring = x;
+        }
+        alert(seatstring);
 
         $.ajax({
             method: "Get",
             url: "/AjaxAction.aspx",
-            data: { InputName: $InputName, InputLastName: $InputLastName, saloon=$saloon, seat: seat }
+            data: { InputName: $InputName, InputLastName: $InputLastName, saloon: $saloon, seat: $seat }
         })
     });
 
 
-    $location.off().on('change', function () {
+    $location.on('change', function () {
         let selectedIndex = $location.val();
+        
+        
 
 
         if (selectedIndex !== -1) {
@@ -56,6 +65,7 @@ $(function () {
                             .on('click', function () {
 
                                 selected_seats.push(+$(this).html());
+                                
 
                                 $(this).toggleClass('btn-success').toggleClass('btn-warning');
 
