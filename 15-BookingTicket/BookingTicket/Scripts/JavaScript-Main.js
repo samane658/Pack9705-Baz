@@ -10,7 +10,7 @@ $(function () {
         { "text": "سالن ۳", "seats": [25, 25, 25, 30, 30,15,15, 5] },
     ];
 
-    let selected_seats = [];
+    var selected_seats = [];
 
     for (let ix in locations) {
         $('<option>')
@@ -19,29 +19,7 @@ $(function () {
             .appendTo($location);
     }
 
-    $("#cReserve").click(function () {
-
-        $(this).toggleClass('btn-success').toggleClass('btn-warning');
-        let $InputName = $("#InputName").val();
-        let $InputLastName = $("#InputLastName").val();
-
-
-        let $saloon = $('#location').val();
-        var $seat = selected_seats[0];
-        alert(seat);
-        var seatstring ;
-        for (var i = 0; i < selected_seats.length; i++) {
-            var x = selected_seats[i];
-            seatstring = x;
-        }
-        alert(seatstring);
-
-        $.ajax({
-            method: "Get",
-            url: "/AjaxAction.aspx",
-            data: { InputName: $InputName, InputLastName: $InputLastName, saloon: $saloon, seat: $seat }
-        })
-    });
+   
 
 
     $location.on('change', function () {
@@ -82,6 +60,36 @@ $(function () {
         }
 
     });
+
+
+    $("#cReserve").click(function () {
+
+        $(this).toggleClass('btn-success').toggleClass('btn-warning');
+        let $InputName = $("#InputName").val();
+        let $InputLastName = $("#InputLastName").val();
+
+
+        let $saloon = $('#location').val();
+        
+           $.ajax({
+                method: "Get",
+                url: "/AjaxAction.aspx",
+                data: { InputName: $InputName, InputLastName: $InputLastName, saloon: $saloon, seat: selected_seats[0] }
+            })
+      /*  $.ajax({
+            method: "Post"
+            ,url: "/AjaxAction.aspx"
+            , contentType: 'application/json'
+            , dataType: 'json'
+            , data: { seat: selected_seats[0], InputName: $InputName, InputLastName: $InputLastName, saloon: $saloon }
+   
+        })*/
+    });
+
+
+
+
+
 
 
     });

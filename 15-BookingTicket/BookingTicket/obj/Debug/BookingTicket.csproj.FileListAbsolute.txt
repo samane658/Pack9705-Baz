@@ -53,4 +53,3 @@ C:\Users\user\source\repos\BookingTicket\BookingTicket\obj\Debug\BookingTicket.c
 C:\Users\user\source\repos\BookingTicket\BookingTicket\obj\Debug\BookingTicket.csproj.CopyComplete
 C:\Users\user\source\repos\BookingTicket\BookingTicket\obj\Debug\BookingTicket.dll
 C:\Users\user\source\repos\BookingTicket\BookingTicket\obj\Debug\BookingTicket.pdb
-C:\Users\user\source\repos\BookingTicket\BookingTicket\obj\Debug\BookingTicket.csprojAssemblyReference.cache

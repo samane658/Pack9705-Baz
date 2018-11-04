@@ -187,6 +187,7 @@
     <Content Include="fonts\Without-Latin\Vazir-WOL.woff" />
     <Content Include="fonts\Without-Latin\Vazir-WOL.woff2" />
     <Content Include="index.html" />
+    <Content Include="Reserve\Users.txt" />
     <Content Include="Scripts\bootstrap-rtl.js" />
     <Content Include="Scripts\bootstrap-rtl.min.js" />
     <None Include="Scripts\jquery-2.2.4.intellisense.js" />
@@ -216,9 +217,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Reserve\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
