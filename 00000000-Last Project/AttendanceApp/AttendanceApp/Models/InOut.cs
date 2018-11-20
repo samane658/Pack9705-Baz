@@ -5,14 +5,16 @@ using System.Web;
 
 namespace AttendanceApp.Models
 {
-    public class InOut
+    public class inout
     {
         public int Id { get; set; }
-        public int personId { get; set; }
         public DateTime date { get; set; }
-        public DateTime startTime { get; set; }
-        public DateTime endTime { get; set; }
+        public int personId { get; set; }
+        public int startTime { get; set; }
+        public int endTime { get; set; }
         public bool isRest { get; set; }
-        public bool iscommited { get; set; }
+        public int  workInThisDay { get; set; }
+        public int delayInThisDay { get; set; }
+        public bool isCommited { get; set; }
     }
 }

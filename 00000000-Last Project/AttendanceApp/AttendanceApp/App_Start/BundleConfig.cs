@@ -23,11 +23,11 @@ namespace AttendanceApp
                       "~/Scripts/bootstrap-rtl.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap-rtl.css",
-                      "~/Content/bootstrap-theme-rtl.css",
-                      "~/Content/font-awesome.css",
-                      "~/fonts/vazir.css",
-                      "~/Content/site.css"));
+                       "~/Content/bootstrap-rtl.css",
+                       "~/Content/bootstrap-theme-rtl.css",
+                       "~/Content/font-awesome.css",
+                       "~/fonts/vazir.css",
+                       "~/Content/site.css"));
         }
     }
 }

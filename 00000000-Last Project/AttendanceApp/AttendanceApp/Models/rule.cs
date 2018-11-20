@@ -13,5 +13,7 @@ namespace AttendanceApp.Models
         public int endWorkTime { get; set; }
         public int overWorkRate { get; set; }
         public int sendOutRate { get; set; }
+        public int delayRate { get; set; }
+        public int restLimit { get; set; }
     }
 }

@@ -8,11 +8,7 @@ namespace AttendanceApp.Models
     public class position
     {
         public int Id { get; set; }
-        public string positionName { get; set; }
-        public int restLimit { get; set; }
-
-        public int baseSalary { get; set; }
-
-
+        public string  positionName { get; set; }
+        public double salary { get; set; }
     }
 }

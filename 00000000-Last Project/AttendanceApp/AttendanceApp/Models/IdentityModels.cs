@@ -1,13 +1,10 @@
-﻿using Microsoft.AspNet.Identity;
-using Microsoft.AspNet.Identity.EntityFramework;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
+using System.Data.Entity;
 using System.Security.Claims;
 using System.Threading.Tasks;
-using System.Web;
+using Microsoft.AspNet.Identity;
+using Microsoft.AspNet.Identity.EntityFramework;
 
 namespace AttendanceApp.Models
 {
@@ -22,40 +19,47 @@ namespace AttendanceApp.Models
             return userIdentity;
         }
 
-        [MaxLength(50)]
         public string name { get; set; }
-
-        [MaxLength(50)]
         public string lastName { get; set; }
-
-        [MaxLength(100)]
         public string positionName { get; set; }
-
-        [Column(TypeName = "datetime2")]
-        public DateTime birthDate { get; set; }
-
-        [MaxLength(1)]
+        public string email { get; set; }
+        public string address { get; set; }
+        public string cellPhone { get; set; }
+        public DateTime  birthDate  { get; set; }
         public string gender { get; set; }
+        public string picPath { get; set; }
 
-        [MaxLength(200)]
-        public string photoFilePath { get; set; }
-
-        public ICollection<ApplicationUser>  manager { get; set; }
-        public int managerId { get; set; }
-
+        public ApplicationUser Manager { get; set; }
+        public int ManagerId { get; set; }
+        public ICollection<ApplicationUser> Employees { get; set; }
 
     }
 
     public class AppDbContext : IdentityDbContext<ApplicationUser>
     {
         public AppDbContext()
-            : base("DefaultConnection", throwIfV1Schema: false)
+            : base("AppDbConnection", throwIfV1Schema: false)
         {
         }
+
+        public virtual DbSet<rule> rules { get; set; }
+        public virtual DbSet<position> Positions { get; set; }
+        public virtual DbSet<rest> Rests { get; set; }
+        public virtual DbSet<inout> Inouts { get; set; }
+       
 
         public static AppDbContext Create()
         {
             return new AppDbContext();
+        }
+
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<ApplicationUser>()
+                .HasOptional(u => u.Manager)
+                .WithMany(u => u.Employees);
         }
     }
 }

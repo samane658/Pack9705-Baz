@@ -201,26 +201,42 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201811181719042_initial.cs" />
-    <Compile Include="Migrations\201811181719042_initial.Designer.cs">
-      <DependentUpon>201811181719042_initial.cs</DependentUpon>
+    <Compile Include="Migrations\201811192234416_init.cs" />
+    <Compile Include="Migrations\201811192234416_init.Designer.cs">
+      <DependentUpon>201811192234416_init.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201811181728189_position-rest-added.cs" />
-    <Compile Include="Migrations\201811181728189_position-rest-added.Designer.cs">
-      <DependentUpon>201811181728189_position-rest-added.cs</DependentUpon>
+    <Compile Include="Migrations\201811192244174_rule-added.cs" />
+    <Compile Include="Migrations\201811192244174_rule-added.Designer.cs">
+      <DependentUpon>201811192244174_rule-added.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201811181737056_inout-added.cs" />
-    <Compile Include="Migrations\201811181737056_inout-added.Designer.cs">
-      <DependentUpon>201811181737056_inout-added.cs</DependentUpon>
+    <Compile Include="Migrations\201811201825022_rulesomeproperty-added.cs" />
+    <Compile Include="Migrations\201811201825022_rulesomeproperty-added.Designer.cs">
+      <DependentUpon>201811201825022_rulesomeproperty-added.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201811201829570_position-added.cs" />
+    <Compile Include="Migrations\201811201829570_position-added.Designer.cs">
+      <DependentUpon>201811201829570_position-added.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201811201835372_rest-added.cs" />
+    <Compile Include="Migrations\201811201835372_rest-added.Designer.cs">
+      <DependentUpon>201811201835372_rest-added.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201811201846148_inout-added.cs" />
+    <Compile Include="Migrations\201811201846148_inout-added.Designer.cs">
+      <DependentUpon>201811201846148_inout-added.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201811201904330_applicationuserproperty-added.cs" />
+    <Compile Include="Migrations\201811201904330_applicationuserproperty-added.Designer.cs">
+      <DependentUpon>201811201904330_applicationuserproperty-added.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\datatime.cs" />
+    <Compile Include="Models\datatim.cs" />
     <Compile Include="Models\IdentityModels.cs" />
-    <Compile Include="Models\InOut.cs" />
+    <Compile Include="Models\inout.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\position.cs" />
-    <Compile Include="Models\Rest.cs" />
+    <Compile Include="Models\rest.cs" />
     <Compile Include="Models\rule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -422,14 +438,26 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201811181719042_initial.resx">
-      <DependentUpon>201811181719042_initial.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201811192234416_init.resx">
+      <DependentUpon>201811192234416_init.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201811181728189_position-rest-added.resx">
-      <DependentUpon>201811181728189_position-rest-added.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201811192244174_rule-added.resx">
+      <DependentUpon>201811192244174_rule-added.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201811181737056_inout-added.resx">
-      <DependentUpon>201811181737056_inout-added.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201811201825022_rulesomeproperty-added.resx">
+      <DependentUpon>201811201825022_rulesomeproperty-added.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811201829570_position-added.resx">
+      <DependentUpon>201811201829570_position-added.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811201835372_rest-added.resx">
+      <DependentUpon>201811201835372_rest-added.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811201846148_inout-added.resx">
+      <DependentUpon>201811201846148_inout-added.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811201904330_applicationuserproperty-added.resx">
+      <DependentUpon>201811201904330_applicationuserproperty-added.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
